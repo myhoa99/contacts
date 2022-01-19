@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_hinh_anh"
+        android:layout_width="72dp"
+        android:layout_height="76dp"
+        android:background="@color/colorPrimary"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/CommonTextView"
+            android:layout_width="1dp"
+            android:layout_height="6dp"
+            android:text="Trần Văn Thắng"
+            android:textColor="@color/colorTextInfo"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_so_dien_thoai"
+            android:text="+0915194096"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            style="@style/CommonTextView"/>
+    </LinearLayout>
+</LinearLayout>
