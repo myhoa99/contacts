@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".activity.IntroActivity"
     android:orientation="vertical"
-    android:background="@color/backgroundFragment">
+    android:background="@color/white">
     <ImageView
         android:src="@drawable/ic_phone"
         android:layout_gravity="center"
